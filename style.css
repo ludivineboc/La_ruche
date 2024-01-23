@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* GENERAL */ 
+h1 {
+    font-family: 'WindSong', cursive;
+    font-size: 6em;
+    color: #593E26;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #593E26;
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #593E26; 
+}
+
+h5{
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.button {  
+    font-family: 'Inter', sans-serif;
+    background: #F66909;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 12px;
+    width:fit-content;
+}
+
+.section-columns {
+    padding: 5% 15% 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* HERO */ 
+
+.hero {
+    width: 100%;
+    background-color: #F3C827;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left  {
+    width: 30%;
+}
+
+.hero-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ENGAGEMENT */ 
+
+.engagement-columns{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+}
+.engagement-column {
+    width: 45%;
+
+}
+
+/* BIENFAITS */ 
+
+.bienfaits {
+    background-color: #F3C827;
+}
+
+.bienfaits-columns {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 5%;
+}
+
+.bienfaits-column {
+    width: 30%;
+}
+
+/* PRODUITS */ 
+
+.produits-columns{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif; 
+}
+
+.card{
+    width: 30%;
+    background-color:#F3C827;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-info {
+    width: 90%;
+    margin: auto;
+}
+
+.card-info .button{
+    margin-bottom: 7%;
+}
+
